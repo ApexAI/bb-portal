@@ -43,7 +43,7 @@ index e4aa679..4900487 100644
      oci_push(
          name = name,
          image = image,
--        repository = "ghcr.io/buildbarn/" + component,
-+        repository = "ghcr.io/buildbarn/" + component + "-backend",
+-        repository = "registry-customer.apex.ai/devops/apex.alan/" + component,
++        repository = "registry-customer.apex.ai/devops/apex.alan/" + component + "-backend",
          remote_tags = "@com_github_buildbarn_bb_storage//tools:stamped_tags",
      )

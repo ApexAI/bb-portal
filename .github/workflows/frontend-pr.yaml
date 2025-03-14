@@ -17,4 +17,4 @@ jobs:
           context: frontend
           file: ./frontend/Dockerfile
           push: false
-          tags: ghcr.io/buildbarn/bb-portal-frontend:${{ github.sha }}
+          tags: registry-customer.apex.ai/devops/apex.alan/bb-portal-frontend:${{ github.sha }}
